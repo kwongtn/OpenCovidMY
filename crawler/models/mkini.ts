@@ -70,3 +70,19 @@ export interface MkiniMukimDataSingle {
 }
 
 export interface MkiniMukimData extends Array<MkiniMukimDataSingle> {}
+
+export interface MkiniClusterDataSingle {
+  enName: string;
+  newCases: number;
+  weight: string | number;
+  ytdWeight: number;
+  myName: string;
+  zhName: string;
+  location: string | null;
+  status: "active" | null;
+  death: number | null;
+  "index case": string | null;
+  "Other notes": string | null;
+}
+
+export interface MkiniClusterData extends Array<MkiniClusterDataSingle> {}
