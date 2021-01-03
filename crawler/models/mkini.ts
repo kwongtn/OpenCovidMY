@@ -86,3 +86,41 @@ export interface MkiniClusterDataSingle {
 }
 
 export interface MkiniClusterData extends Array<MkiniClusterDataSingle> {}
+
+export interface MkiniForeignerDataSingle {
+  depot: string;
+  sampled: number;
+  positive: number | null;
+  foreigners: number | string;
+  treatment: number | string;
+  death: number;
+  zhDepot: string | null;
+  localTransmission: number | string | null;
+  yestLocalTranmission: number | string | null;
+  newLocalTransmission: number | string | null;
+}
+
+export interface MkiniForeignerData extends Array<MkiniForeignerDataSingle> {}
+
+export interface MkiniGeneralData {
+  version: string;
+  encoding: string;
+  feed: {
+    entry: [
+      {
+        gsx$positif: {
+          $t: string;
+        };
+        gsx$negatif: {
+          $t: string;
+        };
+        gsx$pending: {
+          $t: string;
+        };
+        gsx$timestamp: {
+          $t: string;
+        };
+      }
+    ];
+  };
+}

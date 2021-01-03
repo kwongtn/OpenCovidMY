@@ -44,12 +44,26 @@ export interface ProjectMukimDataSingle {
 
 export interface ProjectMukimData extends Array<ProjectMukimDataSingle> {}
 
+export interface ProjectGeneralData {
+  positiveTested: number | null;
+  negativeTested: number | null;
+  pending: number | null;
+  timestamp: string;
+}
+
 export interface UnDeterminedClass {
   url: string;
   content: string;
 }
 
-export type DataClass = "state" | "district" | "mukim" | "none" | "cluster";
+export type DataClass =
+  | "state"
+  | "district"
+  | "mukim"
+  | "none"
+  | "cluster"
+  | "foreigner"
+  | "general";
 
 export interface DeterminedClass extends UnDeterminedClass {
   type: DataClass;
@@ -60,6 +74,8 @@ import {
   MkiniDistrictData,
   MkiniStateData,
   MkiniClusterData,
+  MkiniForeignerData,
+  MkiniGeneralData,
 } from "../models/mkini";
 
 export interface ParsedClass extends DeterminedClass {
@@ -67,12 +83,18 @@ export interface ParsedClass extends DeterminedClass {
     | MkiniMukimData
     | MkiniDistrictData
     | MkiniStateData
-    | MkiniClusterData;
+    | MkiniClusterData
+    | MkiniForeignerData
+    | MkiniGeneralData;
 
   parsedString: string;
 }
 
 export interface ConvertedClass extends ParsedClass {
-  converted: ProjectStateData | ProjectDistrictData | ProjectMukimData;
+  converted:
+    | ProjectStateData
+    | ProjectDistrictData
+    | ProjectMukimData
+    | ProjectGeneralData;
   convertedString: string;
 }

@@ -1,10 +1,13 @@
 const JSSoup = require("jssoup").default;
 
 import { rejects } from "assert";
+import { logger } from "./utils";
 import {
   MkiniClusterData,
   MkiniDistrictData,
   MkiniDistrictDataSingle,
+  MkiniForeignerData,
+  MkiniGeneralData,
   MkiniMukimData,
   MkiniMukimDataSingle,
   MkiniStateData,
@@ -16,6 +19,7 @@ import {
   DeterminedClass,
   ParsedClass,
   ProjectDistrictData,
+  ProjectGeneralData,
   ProjectMukimData,
   ProjectStateData,
   ProjectStateDataSingle,
@@ -26,8 +30,8 @@ export function findScript(htmlResponse: string): Promise<Array<string>> {
     const soup = new JSSoup(htmlResponse);
     var iterationVar = soup.find("head").find("link");
 
+    let interestedURLs: Array<string> = [];
     try {
-      let interestedURLs: Array<string> = [];
       while (iterationVar != undefined) {
         // Get scripts that are defined as preloaded
         if (
@@ -35,23 +39,51 @@ export function findScript(htmlResponse: string): Promise<Array<string>> {
           iterationVar.attrs.href != undefined &&
           iterationVar.attrs.rel == "preload"
         ) {
-          // Narrow down scripts to be queried
-          if (/.*(chunks).*\.js/g.test(iterationVar.attrs.href)) {
-            if (
-              !/.*(chunks)\/(?=)(framework|styles).*\.js/g.test(
-                iterationVar.attrs.href
-              )
-            ) {
-              interestedURLs.push(iterationVar.attrs.href);
-            }
-          }
+          // // Narrow down scripts to be queried
+          // if (/.*(static).*\.js/g.test(iterationVar.attrs.href)) {
+          //   if (
+          //     !/.*(static).*(?=)(framework|styles).*\.js/g.test(
+          //       iterationVar.attrs.href
+          //     )
+          //   ) {
+          //     interestedURLs.push(iterationVar.attrs.href);
+          //   }
+          // }
+
+          interestedURLs.push(iterationVar.attrs.href);
         }
         iterationVar = iterationVar.nextElement;
       }
-      resolve(interestedURLs);
     } catch (err) {
       reject(err);
     }
+
+    // // Get stuff within script tags
+    // iterationVar = soup.find("body").find("script");
+    // try {
+    //   while (iterationVar != undefined) {
+    //     // Get scripts that are defined as preloaded
+    //     if (
+    //       iterationVar.attrs != undefined &&
+    //       iterationVar.attrs.src != undefined
+    //     ) {
+    //       // Narrow down scripts to be queried
+    //       if (/.*(chunks).*\.js/g.test(iterationVar.attrs.src)) {
+    //         if (
+    //           !/.*(chunks)\/(?=)(framework|styles).*\.js/g.test(
+    //             iterationVar.attrs.src
+    //           )
+    //         ) {
+    //           interestedURLs.push(iterationVar.attrs.src);
+    //         }
+    //       }
+    //     }
+    //     iterationVar = iterationVar.nextElement;
+    //   }
+    // } catch (err) {
+    //   reject(err);
+    // }
+    resolve(interestedURLs);
   });
 }
 
@@ -69,17 +101,35 @@ export function determineClass(
       if (/\[{.*"district":"Bachok".*}]/g.test(htmlResponse)) {
         // Check if contain mukim data
         if (/\[{.*"mukim":"Sg Panjang".*}]/g.test(htmlResponse)) {
+          logger("DETERMINE\t: Detected mukim data");
           resolve("mukim");
         } else {
+          logger("DETERMINE\t: Detected district data");
           resolve("district");
         }
       } else {
+        logger("DETERMINE\t: Detected state data");
         resolve("state");
       }
     } else if (
-      /e\.exports = JSON\.parse\('\[{"enName":"Total"/g.test(htmlResponse)
+      // Check if contain cluster data
+      /[aet]\.exports = JSON\.parse\('\[{"enName":"Total"/g.test(htmlResponse)
     ) {
+      logger("DETERMINE\t: Detected cluster data");
       resolve("cluster");
+    } else if (
+      // Check if contain foreigner batch testing data
+      /\[{.*"depot":"Foreigners".*}]/g.test(htmlResponse)
+    ) {
+      logger("DETERMINE\t: Detected foreigner data");
+      resolve("foreigner");
+    } else if (
+      /\s*[aet]\.exports = JSON\.parse\('{\"version\":\"1\.0\",\"encoding\":\"UTF-8\"/g.test(
+        htmlResponse
+      )
+    ) {
+      logger("DETERMINE\t: Detected general data");
+      resolve("general");
     } else {
       resolve("none");
     }
@@ -119,7 +169,7 @@ export function stateParser(rawData: DeterminedClass): Promise<ParsedClass> {
 export function districtParser(rawData: DeterminedClass): Promise<ParsedClass> {
   return new Promise((resolve, reject) => {
     // Narrow down search based on the 't.exports' string
-    const narrowedData = /[et].exports = JSON\.parse.*\]/g.exec(
+    const narrowedData = /[aet].exports = JSON\.parse.*\]/g.exec(
       rawData.content
     );
 
@@ -141,7 +191,7 @@ export function districtParser(rawData: DeterminedClass): Promise<ParsedClass> {
 export function mukimParser(rawData: DeterminedClass): Promise<ParsedClass> {
   return new Promise((resolve, reject) => {
     // Narrow down search based on the 'e.exports' string
-    const narrowedData = /[et].exports = JSON\.parse.*\]/g.exec(
+    const narrowedData = /[aet].exports = JSON\.parse.*\]/g.exec(
       rawData.content
     );
 
@@ -163,7 +213,7 @@ export function mukimParser(rawData: DeterminedClass): Promise<ParsedClass> {
 export function clusterParser(rawData: DeterminedClass): Promise<ParsedClass> {
   return new Promise((resolve, reject) => {
     // Narrow down search based on the 'e.exports' string
-    const narrowedData = /[et].exports = JSON\.parse.*\]/g.exec(
+    const narrowedData = /[aet].exports = JSON\.parse.*\]/g.exec(
       rawData.content
     );
 
@@ -181,6 +231,54 @@ export function clusterParser(rawData: DeterminedClass): Promise<ParsedClass> {
     }
   });
 }
+
+export function foreignerParser(
+  rawData: DeterminedClass
+): Promise<ParsedClass> {
+  return new Promise((resolve, reject) => {
+    // Narrow down search based on the 'e.exports' string
+    const narrowedData = /[aet].exports = JSON\.parse.*\]/g.exec(
+      rawData.content
+    );
+    if (narrowedData) {
+      const extractedData = /\[.*\]/g.exec(narrowedData?.[0]);
+      if (extractedData) {
+        resolve({
+          url: rawData.url,
+          content: rawData.content,
+          type: rawData.type,
+          parsed: JSON.parse(cleaner(extractedData?.[0])) as MkiniForeignerData,
+          parsedString: cleaner(extractedData?.[0]),
+        });
+      }
+    }
+  });
+}
+
+export function generalParser(rawData: DeterminedClass): Promise<ParsedClass> {
+  return new Promise((resolve, reject) => {
+    // Narrow down search based on the 'e.exports' string
+    const narrowedData = /[aet]\.exports = JSON\.parse.*\]}}/g.exec(
+      rawData.content
+    );
+
+    if (narrowedData) {
+      const extractedData = /\{.*}}\]}}/g.exec(narrowedData?.[0]);
+      if (extractedData) {
+        resolve({
+          url: rawData.url,
+          content: rawData.content,
+          type: rawData.type,
+          parsed: JSON.parse(cleaner(extractedData?.[0])) as MkiniGeneralData,
+          parsedString: cleaner(extractedData?.[0]),
+        });
+      }
+    }
+  });
+}
+// -----------------------------------
+// Converters start here
+// -----------------------------------
 
 export function stateDataConverter(raw: ParsedClass): Promise<ConvertedClass> {
   return new Promise<ConvertedClass>((resolve, reject) => {
@@ -277,6 +375,40 @@ export function mukimDataConverter(raw: ParsedClass): Promise<ConvertedClass> {
           url: raw.url,
         });
       }
+    });
+  });
+}
+
+export function generalDataConverter(
+  raw: ParsedClass
+): Promise<ConvertedClass> {
+  return new Promise<ConvertedClass>((resolve, reject) => {
+    const workingObj = raw.parsed as MkiniGeneralData;
+
+    const generalData: ProjectGeneralData = {
+      positiveTested:
+        workingObj.feed.entry[0].gsx$positif.$t != ""
+          ? parseInt(workingObj.feed.entry[0].gsx$positif.$t)
+          : null,
+      negativeTested:
+        workingObj.feed.entry[0].gsx$negatif.$t != ""
+          ? parseInt(workingObj.feed.entry[0].gsx$negatif.$t)
+          : null,
+      pending:
+        workingObj.feed.entry[0].gsx$pending.$t != ""
+          ? parseInt(workingObj.feed.entry[0].gsx$pending.$t)
+          : null,
+      timestamp: workingObj.feed.entry[0].gsx$timestamp.$t,
+    };
+
+    resolve({
+      content: raw.content,
+      parsed: raw.parsed,
+      parsedString: raw.parsedString,
+      converted: generalData,
+      convertedString: JSON.stringify((generalData as unknown) as JSON),
+      type: raw.type,
+      url: raw.url,
     });
   });
 }

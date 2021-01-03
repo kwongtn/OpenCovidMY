@@ -4,6 +4,8 @@ import { js_beautify } from "js-beautify";
 
 import * as fs from "fs";
 
+import * as envs from "./envs";
+
 import {
   ConvertedClass,
   DataClass,
@@ -25,6 +27,9 @@ import {
   districtDataConverter,
   districtParser,
   findScript,
+  foreignerParser,
+  generalDataConverter,
+  generalParser,
   mukimDataConverter,
   mukimParser,
   stateDataConverter,
@@ -36,7 +41,16 @@ import {
   MkiniMukimData,
   MkiniStateData,
 } from "../models/mkini";
+import { env } from "process";
 var counter = 0;
+
+// Function to generate filename prefixes
+const date = new Date(new Date().getTime() - 86400000);
+const preString: string =
+  "" +
+  numString(date.getFullYear()) +
+  numString(date.getMonth() + 1) +
+  numString(date.getDate());
 
 logger("GET\t\t: Getting data from webpage... ");
 
@@ -119,6 +133,13 @@ httpGet("https://newslab.malaysiakini.com/covid-19/en")
     });
   })
   .then((determinedData: Array<DeterminedClass>) => {
+    if (envs.DEBUG) {
+      logger("DEBUG: ");
+      determinedData.forEach((value: DeterminedClass, index: number) => {
+        console.log(value.type + ": " + value.url);
+      });
+    }
+
     logger(
       "FILTER\t: Filtering " + determinedData.length + " obtained content.."
     );
@@ -131,7 +152,7 @@ httpGet("https://newslab.malaysiakini.com/covid-19/en")
   })
   .then(async (filteredRes: Array<DeterminedClass>) => {
     logger(
-      "FILTER\t: Obtained " + filteredRes.length + " results. (Expected 4)"
+      "FILTER\t: Obtained " + filteredRes.length + " results. (Expected 6)"
     );
 
     // Parse based on type
@@ -152,6 +173,12 @@ httpGet("https://newslab.malaysiakini.com/covid-19/en")
           } else if (value.type == "cluster") {
             logger("PARSE\t: Parsing cluster data.. ");
             jobList.push(clusterParser(value));
+          } else if (value.type == "foreigner") {
+            logger("PARSE\t: Parsing foreigner data.. ");
+            jobList.push(foreignerParser(value));
+          } else if (value.type == "general") {
+            logger("PARSE\t: Parsing general data.. ");
+            jobList.push(generalParser(value));
           }
         });
 
@@ -165,13 +192,6 @@ httpGet("https://newslab.malaysiakini.com/covid-19/en")
   .then(async (data: Array<ParsedClass>) => {
     logger("SAVE_RAW\t: Saving obtained raw data..");
     // Save parsed raw data
-
-    const date = new Date();
-    const preString: string =
-      "" +
-      numString(date.getFullYear()) +
-      numString(date.getMonth() + 1) +
-      numString(date.getDate());
 
     data.forEach((value: ParsedClass) => {
       logger("SAVE_RAW\t: Saving " + value.type + " raw data..");
@@ -196,10 +216,6 @@ httpGet("https://newslab.malaysiakini.com/covid-19/en")
       );
     });
 
-    function dataConvert(value: ParsedClass): Promise<ConvertedClass> {
-      return new Promise((resolve, reject) => {});
-    }
-
     // Since saving and conversion can be run asynchronously, I won't separate out conversion
     return await new Promise<Array<ConvertedClass>>((resolve, reject) => {
       let jobList: Array<Promise<ConvertedClass>> = [];
@@ -213,11 +229,13 @@ httpGet("https://newslab.malaysiakini.com/covid-19/en")
           jobList.push(districtDataConverter(value));
         } else if (value.type == "mukim") {
           jobList.push(mukimDataConverter(value));
+        } else if (value.type == "general") {
+          jobList.push(generalDataConverter(value));
         } else if (value.type == "cluster") {
           logger("CONVERT\t: Cluster data conversion skipped");
         } else {
           logger("CONVERT\t: Data type out of range");
-          reject("Out of range.");
+          // reject("Out of range.");
         }
       });
 
@@ -230,12 +248,6 @@ httpGet("https://newslab.malaysiakini.com/covid-19/en")
     logger("SAVE_PROC\t: Saving processed data..");
     // Save parsed raw data
 
-    const date = new Date();
-    const preString: string =
-      "" +
-      numString(date.getFullYear()) +
-      numString(date.getMonth() + 1) +
-      numString(date.getDate());
     data
       .filter((value: ConvertedClass) => value.type != "cluster")
       .forEach((value: ConvertedClass) => {

@@ -8,3 +8,5 @@ export const testState: string = "";
 export const testDistrict: string = "";
 
 export const testMukim: string = "";
+
+export const DEBUG: boolean = false;
