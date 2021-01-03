@@ -14,17 +14,22 @@ pipeline {
     stages {
         stage('Installing required global packages'){
             steps{
-                sh 'npm install tsc -g'
+                sh 'npm install typescript -g'
             }
         }
         stage('Running parse') { 
             steps {
-                sh 'cd crawler/src && npm install --include=dev && npm start'
+                sh 'cd crawler/src && npm install --include-dev && npm start'
+            }
+        }
+        stage('Test file'){
+            steps {
+                sh 'touch testFile'
             }
         }
         stage('Commit & Push Results') { 
             steps {
-                sh 'ls -R'
+                sh 'git add . --verbose && git commit -m "${DATETIME_TAG}" && git push'
             }
         }
     }
