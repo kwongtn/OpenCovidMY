@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "devStart": "nodemon ./crawler.ts",
-    "start": "tsc && node ./dist/crawler.js",
+    "start": "tsc && node ./dist/src/crawler.js",
     "build": "tsc"
   },
   "author": "Kwong Tung Nan (tungnan5636@gmail.com)",
