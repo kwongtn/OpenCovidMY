@@ -1,11 +1,11 @@
 # /etc/systemd/system/openCovidCrawl.service
 
 [Unit]
-Description=Checks counter and synchronizes the transitMY folder if changes are found.
+Description=Crawls the newsportal for information
 
 [Service]
 Type=oneshot
-ExecStart=/home/kubuntu/scripts/transitNew-gDrive/transitNew-gDrive.sh
+ExecStart=/home/ubuntu/OpenCovidMY/systemdScript/openCovidCrawl.sh
 
 [Install]
 WantedBy=multi-user.target
