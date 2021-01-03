@@ -1,7 +1,7 @@
 # /etc/systemd/system/openCovidCrawl.timer
 
 [Unit]
-Description=Timer to run the sync once every 30 mins.
+Description=Timer to run the sync once a day at 12pm
 Requires=openCovidCrawl.service
 
 [Timer]
