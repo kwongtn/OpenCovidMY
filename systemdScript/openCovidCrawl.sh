@@ -10,6 +10,7 @@ git pull
 npm install --include-dev 
 npm start
 
+git add -A
 git commit -a -m "[Auto] $dt"
 
 #git remote add origin git@github.com:kwongtn/OpenCovidMY.git
