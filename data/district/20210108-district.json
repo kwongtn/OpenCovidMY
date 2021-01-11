@@ -1,0 +1,1594 @@
+[{
+    "state": "Johor",
+    "district": "Batu Pahat",
+    "cases": 999,
+    "newCases": 14,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 166,
+    "changeActiveFourteen": -3
+}, {
+    "state": "Johor",
+    "district": "Johor Bahru",
+    "cases": 2996,
+    "newCases": 125,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 1921,
+    "changeActiveFourteen": 97
+}, {
+    "state": "Johor",
+    "district": "Kluang",
+    "cases": 972,
+    "newCases": 3,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 183,
+    "changeActiveFourteen": 58
+}, {
+    "state": "Johor",
+    "district": "Kulai",
+    "cases": 793,
+    "newCases": 60,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 713,
+    "changeActiveFourteen": -4
+}, {
+    "state": "Johor",
+    "district": "Mersing",
+    "cases": 59,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 45,
+    "changeActiveFourteen": -4
+}, {
+    "state": "Johor",
+    "district": "Muar",
+    "cases": 52,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 1611,
+    "changeActiveFourteen": 63
+}, {
+    "state": "Johor",
+    "district": "Pontian",
+    "cases": 211,
+    "newCases": 3,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 95,
+    "changeActiveFourteen": -22
+}, {
+    "state": "Johor",
+    "district": "Segamat",
+    "cases": 79,
+    "newCases": 1,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 31,
+    "changeActiveFourteen": 1
+}, {
+    "state": "Johor",
+    "district": "Kota Tinggi",
+    "cases": 291,
+    "newCases": 17,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 329,
+    "changeActiveFourteen": 15
+}, {
+    "state": "Johor",
+    "district": "Tangkak",
+    "cases": 60,
+    "newCases": 1,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 12,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Johor",
+    "district": "All",
+    "cases": 6512,
+    "newCases": 224,
+    "active": 5385,
+    "changeActive": 173,
+    "activeFourteen": 5108,
+    "changeActiveFourteen": 95
+}, {
+    "state": "Kedah",
+    "district": "Baling",
+    "cases": 148,
+    "newCases": 3,
+    "active": 40,
+    "changeActive": -2,
+    "activeFourteen": 31,
+    "changeActiveFourteen": 3
+}, {
+    "state": "Kedah",
+    "district": "Kota Setar",
+    "cases": 2118,
+    "newCases": 66,
+    "active": 129,
+    "changeActive": 53,
+    "activeFourteen": 168,
+    "changeActiveFourteen": 65
+}, {
+    "state": "Kedah",
+    "district": "Kuala Muda",
+    "cases": 316,
+    "newCases": 13,
+    "active": 88,
+    "changeActive": 1,
+    "activeFourteen": 59,
+    "changeActiveFourteen": 13
+}, {
+    "state": "Kedah",
+    "district": "Kubang Pasu",
+    "cases": 159,
+    "newCases": 3,
+    "active": 13,
+    "changeActive": -1,
+    "activeFourteen": 14,
+    "changeActiveFourteen": 2
+}, {
+    "state": "Kedah",
+    "district": "Kulim",
+    "cases": 552,
+    "newCases": 8,
+    "active": 84,
+    "changeActive": 0,
+    "activeFourteen": 64,
+    "changeActiveFourteen": 7
+}, {
+    "state": "Kedah",
+    "district": "Langkawi",
+    "cases": 13,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Kedah",
+    "district": "Padang Terap",
+    "cases": 21,
+    "newCases": 3,
+    "active": 4,
+    "changeActive": 3,
+    "activeFourteen": 4,
+    "changeActiveFourteen": 3
+}, {
+    "state": "Kedah",
+    "district": "Pendang",
+    "cases": 26,
+    "newCases": 11,
+    "active": 16,
+    "changeActive": 0,
+    "activeFourteen": 13,
+    "changeActiveFourteen": 11
+}, {
+    "state": "Kedah",
+    "district": "Bandar Bahru",
+    "cases": 25,
+    "newCases": 0,
+    "active": 5,
+    "changeActive": 0,
+    "activeFourteen": 2,
+    "changeActiveFourteen": 1
+}, {
+    "state": "Kedah",
+    "district": "Sik",
+    "cases": 1,
+    "newCases": 0,
+    "active": 2,
+    "changeActive": 0,
+    "activeFourteen": 3,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Kedah",
+    "district": "Yan",
+    "cases": 12,
+    "newCases": 0,
+    "active": 5,
+    "changeActive": 0,
+    "activeFourteen": 3,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Kedah",
+    "district": "Import",
+    "cases": 1,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Kedah",
+    "district": "All",
+    "cases": 3415,
+    "newCases": 107,
+    "active": 385,
+    "changeActive": 66,
+    "activeFourteen": 361,
+    "changeActiveFourteen": 105
+}, {
+    "state": "Kelantan",
+    "district": "Bachok",
+    "cases": 15,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 26,
+    "changeActiveFourteen": 4
+}, {
+    "state": "Kelantan",
+    "district": "Gua Musang",
+    "cases": 3,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 17,
+    "changeActiveFourteen": 9
+}, {
+    "state": "Kelantan",
+    "district": "Kota Bharu",
+    "cases": 92,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 292,
+    "changeActiveFourteen": 6
+}, {
+    "state": "Kelantan",
+    "district": "Tanah Merah",
+    "cases": 16,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 10,
+    "changeActiveFourteen": 1
+}, {
+    "state": "Kelantan",
+    "district": "Kuala Krai",
+    "cases": 19,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 45,
+    "changeActiveFourteen": 7
+}, {
+    "state": "Kelantan",
+    "district": "Pasir Mas",
+    "cases": 16,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 34,
+    "changeActiveFourteen": 1
+}, {
+    "state": "Kelantan",
+    "district": "Pasir Puteh",
+    "cases": 32,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 16,
+    "changeActiveFourteen": 4
+}, {
+    "state": "Kelantan",
+    "district": "Tumpat",
+    "cases": 33,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 58,
+    "changeActiveFourteen": 9
+}, {
+    "state": "Kelantan",
+    "district": "Jeli",
+    "cases": 9,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Kelantan",
+    "district": "Machang",
+    "cases": 22,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 32,
+    "changeActiveFourteen": 1
+}, {
+    "state": "Kelantan",
+    "district": "Import",
+    "cases": 5,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Kelantan",
+    "district": "All",
+    "cases": 1134,
+    "newCases": 49,
+    "active": 613,
+    "changeActive": 45,
+    "activeFourteen": 521,
+    "changeActiveFourteen": 4
+}, {
+    "state": "Kuala Lumpur",
+    "district": "Lembah Pantai",
+    "cases": 0,
+    "newCases": 0,
+    "active": 1518,
+    "changeActive": 56,
+    "activeFourteen": 1518,
+    "changeActiveFourteen": 56
+}, {
+    "state": "Kuala Lumpur",
+    "district": "Titiwangsa",
+    "cases": 0,
+    "newCases": 0,
+    "active": 851,
+    "changeActive": 32,
+    "activeFourteen": 851,
+    "changeActiveFourteen": 32
+}, {
+    "state": "Kuala Lumpur",
+    "district": "Kepong",
+    "cases": 0,
+    "newCases": 0,
+    "active": 975,
+    "changeActive": 53,
+    "activeFourteen": 975,
+    "changeActiveFourteen": 53
+}, {
+    "state": "Kuala Lumpur",
+    "district": "Cheras",
+    "cases": 0,
+    "newCases": 0,
+    "active": 583,
+    "changeActive": 1,
+    "activeFourteen": 583,
+    "changeActiveFourteen": 1
+}, {
+    "state": "Kuala Lumpur",
+    "district": "All",
+    "cases": 15540,
+    "newCases": 282,
+    "active": 3927,
+    "changeActive": 142,
+    "activeFourteen": 3927,
+    "changeActiveFourteen": 142
+}, {
+    "state": "Putrajaya",
+    "district": "Putrajaya",
+    "cases": 380,
+    "newCases": 20,
+    "active": 124,
+    "changeActive": 13,
+    "activeFourteen": 253,
+    "changeActiveFourteen": 7
+}, {
+    "state": "Putrajaya",
+    "district": "All",
+    "cases": 380,
+    "newCases": 20,
+    "active": 124,
+    "changeActive": 13,
+    "activeFourteen": 253,
+    "changeActiveFourteen": 7
+}, {
+    "state": "Melaka",
+    "district": "Alor Gajah",
+    "cases": 555,
+    "newCases": 5,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 256,
+    "changeActiveFourteen": -10
+}, {
+    "state": "Melaka",
+    "district": "Alor Gajah (Import)",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Melaka",
+    "district": "Jasin",
+    "cases": 515,
+    "newCases": 2,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 119,
+    "changeActiveFourteen": 1
+}, {
+    "state": "Melaka",
+    "district": "Melaka Tengah",
+    "cases": 337,
+    "newCases": 63,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 147,
+    "changeActiveFourteen": 56
+}, {
+    "state": "Melaka",
+    "district": "Melaka Tengah (Import)",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Melaka",
+    "district": "Import",
+    "cases": 91,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Melaka",
+    "district": "All",
+    "cases": 1498,
+    "newCases": 70,
+    "active": 336,
+    "changeActive": -144,
+    "activeFourteen": 522,
+    "changeActiveFourteen": 47
+}, {
+    "state": "N Sembilan",
+    "district": "Jelebu",
+    "cases": 0,
+    "newCases": 0,
+    "active": 160,
+    "changeActive": -8,
+    "activeFourteen": 162,
+    "changeActiveFourteen": 0
+}, {
+    "state": "N Sembilan",
+    "district": "Jempol",
+    "cases": 0,
+    "newCases": 0,
+    "active": 14,
+    "changeActive": 2,
+    "activeFourteen": 11,
+    "changeActiveFourteen": 0
+}, {
+    "state": "N Sembilan",
+    "district": "Kuala Pilah",
+    "cases": 0,
+    "newCases": 0,
+    "active": 5,
+    "changeActive": 0,
+    "activeFourteen": 6,
+    "changeActiveFourteen": 0
+}, {
+    "state": "N Sembilan",
+    "district": "Port Dickson",
+    "cases": 0,
+    "newCases": 0,
+    "active": 18,
+    "changeActive": -2,
+    "activeFourteen": 22,
+    "changeActiveFourteen": -4
+}, {
+    "state": "N Sembilan",
+    "district": "Rembau",
+    "cases": 0,
+    "newCases": 0,
+    "active": 14,
+    "changeActive": 1,
+    "activeFourteen": 16,
+    "changeActiveFourteen": 4
+}, {
+    "state": "N Sembilan",
+    "district": "Seremban",
+    "cases": 0,
+    "newCases": 0,
+    "active": 518,
+    "changeActive": 30,
+    "activeFourteen": 758,
+    "changeActiveFourteen": 34
+}, {
+    "state": "N Sembilan",
+    "district": "Tampin",
+    "cases": 0,
+    "newCases": 0,
+    "active": 25,
+    "changeActive": 1,
+    "activeFourteen": 21,
+    "changeActiveFourteen": 2
+}, {
+    "state": "N Sembilan",
+    "district": "Import",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 21,
+    "changeActiveFourteen": 2
+}, {
+    "state": "N Sembilan",
+    "district": "All",
+    "cases": 8512,
+    "newCases": 88,
+    "active": 754,
+    "changeActive": 24,
+    "activeFourteen": 996,
+    "changeActiveFourteen": 35
+}, {
+    "state": "P Pinang",
+    "district": "Seberang Perai Tengah",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 110,
+    "changeActiveFourteen": 17
+}, {
+    "state": "P Pinang",
+    "district": "Timur Laut",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 468,
+    "changeActiveFourteen": 3
+}, {
+    "state": "P Pinang",
+    "district": "Seberang Perai Selatan",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 207,
+    "changeActiveFourteen": 10
+}, {
+    "state": "P Pinang",
+    "district": "Barat Daya",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 513,
+    "changeActiveFourteen": 11
+}, {
+    "state": "P Pinang",
+    "district": "Seberang Perai Utara",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 79,
+    "changeActiveFourteen": 9
+}, {
+    "state": "P Pinang",
+    "district": "All",
+    "cases": 4483,
+    "newCases": 75,
+    "active": 935,
+    "changeActive": 0,
+    "activeFourteen": 1377,
+    "changeActiveFourteen": 50
+}, {
+    "state": "Pahang",
+    "district": "Bentong",
+    "cases": 909,
+    "newCases": 2,
+    "active": 355,
+    "changeActive": -8,
+    "activeFourteen": 396,
+    "changeActiveFourteen": -7
+}, {
+    "state": "Pahang",
+    "district": "Jerantut",
+    "cases": 99,
+    "newCases": 0,
+    "active": 3,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Pahang",
+    "district": "Bera",
+    "cases": 30,
+    "newCases": 1,
+    "active": 9,
+    "changeActive": 1,
+    "activeFourteen": 6,
+    "changeActiveFourteen": 1
+}, {
+    "state": "Pahang",
+    "district": "Raub",
+    "cases": 19,
+    "newCases": 0,
+    "active": 11,
+    "changeActive": 0,
+    "activeFourteen": 9,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Pahang",
+    "district": "Lipis",
+    "cases": 17,
+    "newCases": 0,
+    "active": 3,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Pahang",
+    "district": "Cameron Highlands",
+    "cases": 5,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 1,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Pahang",
+    "district": "Kuantan",
+    "cases": 295,
+    "newCases": 20,
+    "active": 58,
+    "changeActive": 18,
+    "activeFourteen": 32,
+    "changeActiveFourteen": 6
+}, {
+    "state": "Pahang",
+    "district": "Maran",
+    "cases": 53,
+    "newCases": 1,
+    "active": 15,
+    "changeActive": 0,
+    "activeFourteen": 22,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Pahang",
+    "district": "Pekan",
+    "cases": 40,
+    "newCases": 2,
+    "active": 7,
+    "changeActive": 2,
+    "activeFourteen": 3,
+    "changeActiveFourteen": -2
+}, {
+    "state": "Pahang",
+    "district": "Temerloh",
+    "cases": 44,
+    "newCases": 1,
+    "active": 5,
+    "changeActive": 1,
+    "activeFourteen": 5,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Pahang",
+    "district": "Rompin",
+    "cases": 16,
+    "newCases": 1,
+    "active": 3,
+    "changeActive": -2,
+    "activeFourteen": 7,
+    "changeActiveFourteen": 1
+}, {
+    "state": "Pahang",
+    "district": "All",
+    "cases": 1527,
+    "newCases": 28,
+    "active": 469,
+    "changeActive": 12,
+    "activeFourteen": 481,
+    "changeActiveFourteen": 1
+}, {
+    "state": "Perak",
+    "district": "Hilir Perak",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 56,
+    "changeActiveFourteen": -6
+}, {
+    "state": "Perak",
+    "district": "Bagan Datuk",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 8,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Perak",
+    "district": "Kinta",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 169,
+    "changeActiveFourteen": -4
+}, {
+    "state": "Perak",
+    "district": "Perak Tengah",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 13,
+    "changeActiveFourteen": -1
+}, {
+    "state": "Perak",
+    "district": "Larut, Matang, Selama",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 120,
+    "changeActiveFourteen": 24
+}, {
+    "state": "Perak",
+    "district": "Manjung",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 34,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Perak",
+    "district": "Kuala Kangsar",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 19,
+    "changeActiveFourteen": 8
+}, {
+    "state": "Perak",
+    "district": "Hulu Perak",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 15,
+    "changeActiveFourteen": 1
+}, {
+    "state": "Perak",
+    "district": "Kerian",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 87,
+    "changeActiveFourteen": 1
+}, {
+    "state": "Perak",
+    "district": "Batang Padang",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 34,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Perak",
+    "district": "Muallim",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 8,
+    "changeActiveFourteen": 3
+}, {
+    "state": "Perak",
+    "district": "Kampar",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 9,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Perak",
+    "district": "All",
+    "cases": 386,
+    "newCases": 45,
+    "active": 386,
+    "changeActive": 45,
+    "activeFourteen": 571,
+    "changeActiveFourteen": 25
+}, {
+    "state": "Perlis",
+    "district": "Perlis",
+    "cases": 50,
+    "newCases": 3,
+    "active": 2,
+    "changeActive": 2,
+    "activeFourteen": 4,
+    "changeActiveFourteen": 4
+}, {
+    "state": "Perlis",
+    "district": "All",
+    "cases": 50,
+    "newCases": 3,
+    "active": 2,
+    "changeActive": 2,
+    "activeFourteen": 22,
+    "changeActiveFourteen": 1
+}, {
+    "state": "Selangor",
+    "district": "Petaling",
+    "cases": 5863,
+    "newCases": 90,
+    "active": 996,
+    "changeActive": -78,
+    "activeFourteen": 996,
+    "changeActiveFourteen": -78
+}, {
+    "state": "Selangor",
+    "district": "Hulu Langat",
+    "cases": 7070,
+    "newCases": -102,
+    "active": 1166,
+    "changeActive": -30,
+    "activeFourteen": 1166,
+    "changeActiveFourteen": -30
+}, {
+    "state": "Selangor",
+    "district": "Gombak",
+    "cases": 2321,
+    "newCases": -407,
+    "active": 474,
+    "changeActive": -51,
+    "activeFourteen": 474,
+    "changeActiveFourteen": -51
+}, {
+    "state": "Selangor",
+    "district": "Klang",
+    "cases": 17271,
+    "newCases": 726,
+    "active": 3131,
+    "changeActive": 317,
+    "activeFourteen": 3131,
+    "changeActiveFourteen": 317
+}, {
+    "state": "Selangor",
+    "district": "Kuala Selangor",
+    "cases": 899,
+    "newCases": 27,
+    "active": 150,
+    "changeActive": 1,
+    "activeFourteen": 150,
+    "changeActiveFourteen": 1
+}, {
+    "state": "Selangor",
+    "district": "Sepang",
+    "cases": 1940,
+    "newCases": 35,
+    "active": 374,
+    "changeActive": -109,
+    "activeFourteen": 374,
+    "changeActiveFourteen": -109
+}, {
+    "state": "Selangor",
+    "district": "Kuala Langat",
+    "cases": 1507,
+    "newCases": 31,
+    "active": 347,
+    "changeActive": 1,
+    "activeFourteen": 347,
+    "changeActiveFourteen": 1
+}, {
+    "state": "Selangor",
+    "district": "Sabak Bernam",
+    "cases": 132,
+    "newCases": 1,
+    "active": 23,
+    "changeActive": -1,
+    "activeFourteen": 45,
+    "changeActiveFourteen": -4
+}, {
+    "state": "Selangor",
+    "district": "Hulu Selangor",
+    "cases": 343,
+    "newCases": 14,
+    "active": 90,
+    "changeActive": 10,
+    "activeFourteen": 1993,
+    "changeActiveFourteen": 22
+}, {
+    "state": "Selangor",
+    "district": "Import",
+    "cases": 418,
+    "newCases": 2,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Selangor",
+    "district": "All",
+    "cases": 38433,
+    "newCases": 1086,
+    "active": 6751,
+    "changeActive": 60,
+    "activeFourteen": 10251,
+    "changeActiveFourteen": 623
+}, {
+    "state": "Terengganu",
+    "district": "Besut",
+    "cases": 80,
+    "newCases": 6,
+    "active": 13,
+    "changeActive": 2,
+    "activeFourteen": 15,
+    "changeActiveFourteen": 5
+}, {
+    "state": "Terengganu",
+    "district": "Dungun",
+    "cases": 156,
+    "newCases": 14,
+    "active": 29,
+    "changeActive": 13,
+    "activeFourteen": 20,
+    "changeActiveFourteen": 9
+}, {
+    "state": "Terengganu",
+    "district": "Kemaman",
+    "cases": 40,
+    "newCases": 4,
+    "active": 15,
+    "changeActive": 1,
+    "activeFourteen": 9,
+    "changeActiveFourteen": 3
+}, {
+    "state": "Terengganu",
+    "district": "Kuala Terengganu",
+    "cases": 69,
+    "newCases": 3,
+    "active": 15,
+    "changeActive": 1,
+    "activeFourteen": 17,
+    "changeActiveFourteen": 3
+}, {
+    "state": "Terengganu",
+    "district": "Marang",
+    "cases": 41,
+    "newCases": 4,
+    "active": 15,
+    "changeActive": 4,
+    "activeFourteen": 2,
+    "changeActiveFourteen": 1
+}, {
+    "state": "Terengganu",
+    "district": "Kuala Nerus",
+    "cases": 40,
+    "newCases": 2,
+    "active": 15,
+    "changeActive": 0,
+    "activeFourteen": 11,
+    "changeActiveFourteen": 2
+}, {
+    "state": "Terengganu",
+    "district": "Setiu",
+    "cases": 9,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 1,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Terengganu",
+    "district": "Hulu Terengganu",
+    "cases": 4,
+    "newCases": 1,
+    "active": 1,
+    "changeActive": 1,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Terengganu",
+    "district": "Import",
+    "cases": 1,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Terengganu",
+    "district": "All",
+    "cases": 439,
+    "newCases": 34,
+    "active": 103,
+    "changeActive": 21,
+    "activeFourteen": 75,
+    "changeActiveFourteen": 23
+}, {
+    "state": "Sabah",
+    "district": "Beaufort",
+    "cases": 0,
+    "newCases": 5,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 71,
+    "changeActiveFourteen": -5
+}, {
+    "state": "Sabah",
+    "district": "Kalabakan",
+    "cases": 0,
+    "newCases": 5,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 55,
+    "changeActiveFourteen": 4
+}, {
+    "state": "Sabah",
+    "district": "Kinabatangan",
+    "cases": 0,
+    "newCases": 16,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 101,
+    "changeActiveFourteen": 14
+}, {
+    "state": "Sabah",
+    "district": "Kota Belud",
+    "cases": 0,
+    "newCases": 7,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 130,
+    "changeActiveFourteen": 2
+}, {
+    "state": "Sabah",
+    "district": "Kota Kinabalu",
+    "cases": 0,
+    "newCases": 101,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 846,
+    "changeActiveFourteen": 72
+}, {
+    "state": "Sabah",
+    "district": "Kunak",
+    "cases": 0,
+    "newCases": 6,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 64,
+    "changeActiveFourteen": 4
+}, {
+    "state": "Sabah",
+    "district": "Lahad Datu",
+    "cases": 0,
+    "newCases": 39,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 483,
+    "changeActiveFourteen": -1
+}, {
+    "state": "Sabah",
+    "district": "Papar",
+    "cases": 0,
+    "newCases": 18,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 192,
+    "changeActiveFourteen": 10
+}, {
+    "state": "Sabah",
+    "district": "Putatan",
+    "cases": 0,
+    "newCases": 29,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 187,
+    "changeActiveFourteen": 16
+}, {
+    "state": "Sabah",
+    "district": "Sandakan",
+    "cases": 0,
+    "newCases": 12,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 277,
+    "changeActiveFourteen": -22
+}, {
+    "state": "Sabah",
+    "district": "Semporna",
+    "cases": 0,
+    "newCases": 1,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 42,
+    "changeActiveFourteen": -3
+}, {
+    "state": "Sabah",
+    "district": "Sipitang",
+    "cases": 0,
+    "newCases": 1,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 71,
+    "changeActiveFourteen": -5
+}, {
+    "state": "Sabah",
+    "district": "Tawau",
+    "cases": 0,
+    "newCases": 32,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 469,
+    "changeActiveFourteen": 25
+}, {
+    "state": "Sabah",
+    "district": "Ranau",
+    "cases": 0,
+    "newCases": 4,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 52,
+    "changeActiveFourteen": -16
+}, {
+    "state": "Sabah",
+    "district": "Tuaran",
+    "cases": 0,
+    "newCases": 12,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 112,
+    "changeActiveFourteen": 7
+}, {
+    "state": "Sabah",
+    "district": "Keningau",
+    "cases": 0,
+    "newCases": 18,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 176,
+    "changeActiveFourteen": 10
+}, {
+    "state": "Sabah",
+    "district": "Kota Marudu",
+    "cases": 0,
+    "newCases": 10,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 58,
+    "changeActiveFourteen": 10
+}, {
+    "state": "Sabah",
+    "district": "Kudat",
+    "cases": 0,
+    "newCases": 6,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 105,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Sabah",
+    "district": "Nabawan",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 2,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Sabah",
+    "district": "Pitas",
+    "cases": 0,
+    "newCases": 14,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 81,
+    "changeActiveFourteen": 14
+}, {
+    "state": "Sabah",
+    "district": "Tambunan",
+    "cases": 0,
+    "newCases": 9,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 105,
+    "changeActiveFourteen": 9
+}, {
+    "state": "Sabah",
+    "district": "Tenom",
+    "cases": 0,
+    "newCases": 6,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 44,
+    "changeActiveFourteen": 8
+}, {
+    "state": "Sabah",
+    "district": "Penampang",
+    "cases": 0,
+    "newCases": 41,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 459,
+    "changeActiveFourteen": 11
+}, {
+    "state": "Sabah",
+    "district": "Kuala Penyu",
+    "cases": 0,
+    "newCases": 9,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 23,
+    "changeActiveFourteen": 9
+}, {
+    "state": "Sabah",
+    "district": "Tongod",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 3,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Sabah",
+    "district": "Telupid",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 5,
+    "changeActiveFourteen": -2
+}, {
+    "state": "Sabah",
+    "district": "Beluran",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 20,
+    "changeActiveFourteen": -3
+}, {
+    "state": "Sabah",
+    "district": "All",
+    "cases": 39854,
+    "newCases": 401,
+    "active": 2506,
+    "changeActive": 49,
+    "activeFourteen": 4211,
+    "changeActiveFourteen": 176
+}, {
+    "state": "Labuan",
+    "district": "Labuan",
+    "cases": 1777,
+    "newCases": 6,
+    "active": 137,
+    "changeActive": -10,
+    "activeFourteen": 137,
+    "changeActiveFourteen": -10
+}, {
+    "state": "Labuan",
+    "district": "All",
+    "cases": 1777,
+    "newCases": 6,
+    "active": 137,
+    "changeActive": -10,
+    "activeFourteen": 137,
+    "changeActiveFourteen": -10
+}, {
+    "state": "Sarawak",
+    "district": "Kapit",
+    "cases": 1,
+    "newCases": 0,
+    "active": 1,
+    "changeActive": 0,
+    "activeFourteen": 2,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Sarawak",
+    "district": "Sri Aman",
+    "cases": 7,
+    "newCases": 0,
+    "active": 2,
+    "changeActive": 0,
+    "activeFourteen": 2,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Sarawak",
+    "district": "Asajaya",
+    "cases": 7,
+    "newCases": 0,
+    "active": 2,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Sarawak",
+    "district": "Baram",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Sarawak",
+    "district": "Bau",
+    "cases": 7,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Sarawak",
+    "district": "Belaga",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Sarawak",
+    "district": "Dalat",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Sarawak",
+    "district": "Daro",
+    "cases": 1,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Sarawak",
+    "district": "Julau",
+    "cases": 1,
+    "newCases": 1,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Sarawak",
+    "district": "Kanowit",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Sarawak",
+    "district": "Lundu",
+    "cases": 7,
+    "newCases": 0,
+    "active": 1,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Sarawak",
+    "district": "Matu",
+    "cases": 1,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Sarawak",
+    "district": "Tanjung Manis",
+    "cases": 1,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Sarawak",
+    "district": "Song",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Sarawak",
+    "district": "Saratok",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Sarawak",
+    "district": "Lubok Antu",
+    "cases": 3,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Sarawak",
+    "district": "Tebedu",
+    "cases": 4,
+    "newCases": 0,
+    "active": 1,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Sarawak",
+    "district": "Kuching",
+    "cases": 768,
+    "newCases": 10,
+    "active": 40,
+    "changeActive": 8,
+    "activeFourteen": 25,
+    "changeActiveFourteen": 6
+}, {
+    "state": "Sarawak",
+    "district": "Kota Samarahan",
+    "cases": 117,
+    "newCases": 1,
+    "active": 1,
+    "changeActive": 1,
+    "activeFourteen": 1,
+    "changeActiveFourteen": 1
+}, {
+    "state": "Sarawak",
+    "district": "Limbang",
+    "cases": 25,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": -1,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Sarawak",
+    "district": "Serian",
+    "cases": 27,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Sarawak",
+    "district": "Miri",
+    "cases": 81,
+    "newCases": 4,
+    "active": 18,
+    "changeActive": 3,
+    "activeFourteen": 8,
+    "changeActiveFourteen": 3
+}, {
+    "state": "Sarawak",
+    "district": "Sarikei",
+    "cases": 11,
+    "newCases": 1,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Sarawak",
+    "district": "Bintulu",
+    "cases": 61,
+    "newCases": 0,
+    "active": 8,
+    "changeActive": 0,
+    "activeFourteen": 2,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Sarawak",
+    "district": "Simunjan",
+    "cases": 8,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Sarawak",
+    "district": "Mukah",
+    "cases": 1,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Sarawak",
+    "district": "Betong",
+    "cases": 17,
+    "newCases": 0,
+    "active": 1,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Sarawak",
+    "district": "Lawas",
+    "cases": 12,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": -1,
+    "activeFourteen": 1,
+    "changeActiveFourteen": 1
+}, {
+    "state": "Sarawak",
+    "district": "Sibu",
+    "cases": 37,
+    "newCases": 0,
+    "active": 11,
+    "changeActive": 0,
+    "activeFourteen": 2,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Sarawak",
+    "district": "Meradong",
+    "cases": 4,
+    "newCases": 0,
+    "active": 4,
+    "changeActive": 0,
+    "activeFourteen": 3,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Sarawak",
+    "district": "Pakan",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Sarawak",
+    "district": "Tatau",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Sarawak",
+    "district": "Selangau",
+    "cases": 0,
+    "newCases": 0,
+    "active": 0,
+    "changeActive": 0,
+    "activeFourteen": 0,
+    "changeActiveFourteen": 0
+}, {
+    "state": "Sarawak",
+    "district": "All",
+    "cases": 1196,
+    "newCases": 16,
+    "active": 87,
+    "changeActive": 11,
+    "activeFourteen": 45,
+    "changeActiveFourteen": 18
+}]
