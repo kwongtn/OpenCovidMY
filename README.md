@@ -168,3 +168,13 @@ npm install --dev
 ```
 npm run devStart
 ```
+
+### Notes
+
+- The `foreginers` class data has been discontinued since 12 Jan 2021
+
+### Require Help
+
+- Data required for `20210112-general` cause the script failed.
+
+- Need help on collecting data for Year 2020. Very sorry that I devised this project so late.

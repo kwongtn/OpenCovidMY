@@ -141,7 +141,13 @@ function cleaner(dirtyString: string): string {
   return dirtyString
     .replace(/"\\\\"\\u/g, '"\\u')
     .replace(/\\\\"",/g, '",')
-    .replace(/\\\'/g, "'");
+    .replace(/\\\'/g, "'")
+    .replace(/: \\\\/g, '":')
+    .replace(
+      /"dateUpdate":"mukimNe":"\\u092a\\u0928\\u094d\\u091a\\u0902\\u0917  \\u092c\\u0947\\u0926\\u0947\\u0928\\u093e\\\\",","activeCases"/g,
+      '"dateUpdate": "2020-01-24","mukimNe":"\\u092a\\u0928\\u094d\\u091a\\u0902\\u0917  \\u092c\\u0947\\u0926\\u0947\\u0928\\u093e\\\\","activeCases"'
+    );
+  // Temporary cleaning
 }
 
 export function stateParser(rawData: DeterminedClass): Promise<ParsedClass> {
@@ -166,6 +172,7 @@ export function stateParser(rawData: DeterminedClass): Promise<ParsedClass> {
   });
 }
 
+import * as fs from "fs";
 export function districtParser(rawData: DeterminedClass): Promise<ParsedClass> {
   return new Promise((resolve, reject) => {
     // Narrow down search based on the 't.exports' string
@@ -176,12 +183,14 @@ export function districtParser(rawData: DeterminedClass): Promise<ParsedClass> {
     if (narrowedData) {
       const extractedData = /\[.*\]/g.exec(narrowedData?.[0]);
       if (extractedData) {
+        const cleanedData = cleaner(extractedData?.[0]);
+        fs.writeFileSync("../../stateDebug.json", cleanedData);
         resolve({
           url: rawData.url,
           content: rawData.content,
           type: rawData.type,
-          parsed: JSON.parse(extractedData?.[0]) as MkiniDistrictData,
-          parsedString: extractedData?.[0],
+          parsed: (JSON.parse(cleanedData) as unknown) as MkiniDistrictData,
+          parsedString: cleanedData,
         });
       }
     }

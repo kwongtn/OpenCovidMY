@@ -54,7 +54,7 @@ const preString: string =
 
 logger("GET\t\t: Getting data from webpage... ");
 
-httpGet("https://newslab.malaysiakini.com/covid-19/en")
+httpGet("https://newslab.malaysiakini.com/covid-19/my")
   .then(
     (htmlResponse: string): Promise<Array<string>> => {
       // Find relavant scripts from html response
