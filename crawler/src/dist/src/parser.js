@@ -120,7 +120,10 @@ function cleaner(dirtyString) {
     return dirtyString
         .replace(/"\\\\"\\u/g, '"\\u')
         .replace(/\\\\"",/g, '",')
-        .replace(/\\\'/g, "'");
+        .replace(/\\\'/g, "'")
+        .replace(/: \\\\/g, '":')
+        .replace(/"dateUpdate":"mukimNe":"\\u092a\\u0928\\u094d\\u091a\\u0902\\u0917  \\u092c\\u0947\\u0926\\u0947\\u0928\\u093e\\\\",","activeCases"/g, '"dateUpdate": "2020-01-24","mukimNe":"\\u092a\\u0928\\u094d\\u091a\\u0902\\u0917  \\u092c\\u0947\\u0926\\u0947\\u0928\\u093e\\\\","activeCases"');
+    // Temporary cleaning
 }
 function stateParser(rawData) {
     return new Promise((resolve, reject) => {
@@ -141,6 +144,7 @@ function stateParser(rawData) {
     });
 }
 exports.stateParser = stateParser;
+const fs = require("fs");
 function districtParser(rawData) {
     return new Promise((resolve, reject) => {
         // Narrow down search based on the 't.exports' string
@@ -148,12 +152,14 @@ function districtParser(rawData) {
         if (narrowedData) {
             const extractedData = /\[.*\]/g.exec(narrowedData === null || narrowedData === void 0 ? void 0 : narrowedData[0]);
             if (extractedData) {
+                const cleanedData = cleaner(extractedData === null || extractedData === void 0 ? void 0 : extractedData[0]);
+                fs.writeFileSync("../../stateDebug.json", cleanedData);
                 resolve({
                     url: rawData.url,
                     content: rawData.content,
                     type: rawData.type,
-                    parsed: JSON.parse(extractedData === null || extractedData === void 0 ? void 0 : extractedData[0]),
-                    parsedString: extractedData === null || extractedData === void 0 ? void 0 : extractedData[0],
+                    parsed: JSON.parse(cleanedData),
+                    parsedString: cleanedData,
                 });
             }
         }
