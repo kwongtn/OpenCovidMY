@@ -25,7 +25,7 @@ const preString = "" +
     utils_1.numString(date.getMonth() + 1) +
     utils_1.numString(date.getDate());
 utils_1.logger("GET\t\t: Getting data from webpage... ");
-mkini_1.httpGet("https://newslab.malaysiakini.com/covid-19/en")
+mkini_1.httpGet("https://newslab.malaysiakini.com/covid-19/my")
     .then((htmlResponse) => {
     // Find relavant scripts from html response
     utils_1.logger("PARSE\t: Parsing HTML... ");
