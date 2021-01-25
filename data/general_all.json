@@ -1,0 +1,185 @@
+[{
+    "date": "2021-01-01T16:00:00.899Z",
+    "data": {
+        "positiveTested": 117373,
+        "negativeTested": 3273431,
+        "pending": null,
+        "timestamp": "2021-01-02T12:00:00+08:00"
+    }
+}, {
+    "date": "2021-01-02T16:00:00.899Z",
+    "data": {
+        "positiveTested": 119077,
+        "negativeTested": 3295303,
+        "pending": null,
+        "timestamp": "2021-01-03T12:00:00+08:00"
+    }
+}, {
+    "date": "2021-01-03T16:00:00.899Z",
+    "data": {
+        "positiveTested": 120818,
+        "negativeTested": 3314876,
+        "pending": null,
+        "timestamp": "2021-01-04T12:00:00+08:00"
+    }
+}, {
+    "date": "2021-01-04T16:00:00.899Z",
+    "data": {
+        "positiveTested": 120818,
+        "negativeTested": 3314876,
+        "pending": null,
+        "timestamp": "2021-01-04T12:00:00+08:00"
+    }
+}, {
+    "date": "2021-01-05T16:00:00.899Z",
+    "data": {
+        "positiveTested": 125438,
+        "negativeTested": 3367464,
+        "pending": null,
+        "timestamp": "2021-01-06T12:00:00+08:00"
+    }
+}, {
+    "date": "2021-01-06T16:00:00.899Z",
+    "data": {
+        "positiveTested": 128465,
+        "negativeTested": 3396531,
+        "pending": null,
+        "timestamp": "2021-01-07T12:00:00+08:00"
+    }
+}, {
+    "date": "2021-01-07T16:00:00.899Z",
+    "data": {
+        "positiveTested": 131108,
+        "negativeTested": 3428984,
+        "pending": null,
+        "timestamp": "2021-01-08T12:00:00+08:00"
+    }
+}, {
+    "date": "2021-01-08T16:00:00.899Z",
+    "data": {
+        "positiveTested": 133559,
+        "negativeTested": 3458793,
+        "pending": null,
+        "timestamp": "2021-01-09T12:00:00+08:00"
+    }
+}, {
+    "date": "2021-01-09T16:00:00.899Z",
+    "data": {
+        "positiveTested": 135992,
+        "negativeTested": null,
+        "pending": null,
+        "timestamp": "2021-01-09T12:00:00+08:00"
+    }
+}, {
+    "date": "2021-01-10T16:00:00.900Z",
+    "data": {
+        "positiveTested": 138224,
+        "negativeTested": 3519257,
+        "pending": null,
+        "timestamp": "2021-01-11T12:00:00+08:00"
+    }
+}, {
+    "date": "2021-01-11T16:00:00.900Z",
+    "data": {
+        "positiveTested": 141533,
+        "negativeTested": null,
+        "pending": null,
+        "timestamp": "2021-01-12T12:00:00+08:00"
+    }
+}, {
+    "date": "2021-01-12T16:00:00.900Z",
+    "data": {
+        "positiveTested": 144518,
+        "negativeTested": 3590585,
+        "pending": null,
+        "timestamp": "2021-01-13T12:00:00+08:00"
+    }
+}, {
+    "date": "2021-01-13T16:00:00.900Z",
+    "data": {
+        "positiveTested": 147855,
+        "negativeTested": 3650097,
+        "pending": null,
+        "timestamp": "2021-01-14T12:00:00+08:00"
+    }
+}, {
+    "date": "2021-01-14T16:00:00.900Z",
+    "data": {
+        "positiveTested": 151066,
+        "negativeTested": 3714297,
+        "pending": null,
+        "timestamp": "2021-01-15T12:00:00+08:00"
+    }
+}, {
+    "date": "2021-01-15T16:00:00.900Z",
+    "data": {
+        "positiveTested": 155095,
+        "negativeTested": 3773679,
+        "pending": null,
+        "timestamp": "2021-01-16T12:00:00+08:00"
+    }
+}, {
+    "date": "2021-01-16T16:00:00.900Z",
+    "data": {
+        "positiveTested": 158434,
+        "negativeTested": 3832519,
+        "pending": null,
+        "timestamp": "2021-01-17T12:00:00+08:00"
+    }
+}, {
+    "date": "2021-01-17T16:00:00.900Z",
+    "data": {
+        "positiveTested": 161740,
+        "negativeTested": 3888944,
+        "pending": null,
+        "timestamp": "2021-01-18T12:00:00+08:00"
+    }
+}, {
+    "date": "2021-01-18T16:00:00.900Z",
+    "data": {
+        "positiveTested": 165371,
+        "negativeTested": 3942101,
+        "pending": null,
+        "timestamp": "2021-01-19T12:00:00+08:00"
+    }
+}, {
+    "date": "2021-01-19T16:00:00.900Z",
+    "data": {
+        "positiveTested": 169379,
+        "negativeTested": 3995738,
+        "pending": null,
+        "timestamp": "2021-01-20T12:00:00+08:00"
+    }
+}, {
+    "date": "2021-01-20T16:00:00.900Z",
+    "data": {
+        "positiveTested": 172549,
+        "negativeTested": 4064373,
+        "pending": null,
+        "timestamp": "2021-01-20T12:00:00+08:00"
+    }
+}, {
+    "date": "2021-01-21T16:00:00.900Z",
+    "data": {
+        "positiveTested": 180455,
+        "negativeTested": 4188807,
+        "pending": null,
+        "timestamp": "2021-01-23T12:00:00+08:00"
+    }
+}, {
+    "date": "2021-01-22T16:00:00.900Z",
+    "data": {
+        "positiveTested": 180455,
+        "negativeTested": 4188807,
+        "pending": null,
+        "timestamp": "2021-01-23T12:00:00+08:00"
+    }
+}, {
+    "date": "2021-01-23T16:00:00.900Z",
+    "data": {
+        "positiveTested": 183801,
+        "negativeTested": 4247515,
+        "pending": null,
+        "timestamp": "2021-01-24T12:00:00+08:00"
+    }
+}]

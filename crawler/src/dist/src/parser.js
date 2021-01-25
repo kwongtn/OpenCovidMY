@@ -12,6 +12,14 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.generalDataConverter = exports.mukimDataConverter = exports.districtDataConverter = exports.stateDataConverter = exports.generalParser = exports.foreignerParser = exports.clusterParser = exports.mukimParser = exports.districtParser = exports.stateParser = exports.determineClass = exports.findScript = void 0;
 const JSSoup = require("jssoup").default;
 const utils_1 = require("./utils");
+// Function to generate filename prefixes
+const date = new Date(new Date().getTime() - 86400000);
+const myNumString = "" +
+    utils_1.numString(date.getFullYear()) +
+    "-" +
+    utils_1.numString(date.getMonth() + 1) +
+    "-" +
+    utils_1.numString(date.getDate());
 function findScript(htmlResponse) {
     return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
         const soup = new JSSoup(htmlResponse);
@@ -122,7 +130,7 @@ function cleaner(dirtyString) {
         .replace(/\\\\"",/g, '",')
         .replace(/\\\'/g, "'")
         .replace(/: \\\\/g, '":')
-        .replace(/"dateUpdate":"mukimNe":"\\u092a\\u0928\\u094d\\u091a\\u0902\\u0917  \\u092c\\u0947\\u0926\\u0947\\u0928\\u093e\\\\",","activeCases"/g, '"dateUpdate": "2020-01-24","mukimNe":"\\u092a\\u0928\\u094d\\u091a\\u0902\\u0917  \\u092c\\u0947\\u0926\\u0947\\u0928\\u093e\\\\","activeCases"');
+        .replace(/"dateUpdate":"mukimNe":"\\u092a\\u0928\\u094d\\u091a\\u0902\\u0917  \\u092c\\u0947\\u0926\\u0947\\u0928\\u093e\\\\",","activeCases"/g, '"dateUpdate": "2020-01-24","activeCases"');
     // Temporary cleaning
 }
 function stateParser(rawData) {
