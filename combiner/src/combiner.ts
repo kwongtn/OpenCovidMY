@@ -83,7 +83,7 @@ function combiner(dataType: DataClass): Promise<boolean> {
       })
       .then((data: any) => {
         fs.writeFile(
-          "../../data/" + dataType + "/" + dataType + "_all.json",
+          "../../data/" + dataType + "_all.json",
           js_beautify(JSON.stringify(data)),
           (err) => {
             if (err) {
