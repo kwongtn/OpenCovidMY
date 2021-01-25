@@ -1,7 +1,7 @@
 const JSSoup = require("jssoup").default;
 
 import { rejects } from "assert";
-import { logger } from "./utils";
+import { logger, numString } from "./utils";
 import {
   MkiniClusterData,
   MkiniDistrictData,
@@ -24,6 +24,16 @@ import {
   ProjectStateData,
   ProjectStateDataSingle,
 } from "../models/thisProject";
+
+// Function to generate filename prefixes
+const date = new Date(new Date().getTime() - 86400000);
+const myNumString: string =
+  "" +
+  numString(date.getFullYear()) +
+  "-" +
+  numString(date.getMonth() + 1) +
+  "-" +
+  numString(date.getDate());
 
 export function findScript(htmlResponse: string): Promise<Array<string>> {
   return new Promise(async (resolve, reject) => {
@@ -145,7 +155,7 @@ function cleaner(dirtyString: string): string {
     .replace(/: \\\\/g, '":')
     .replace(
       /"dateUpdate":"mukimNe":"\\u092a\\u0928\\u094d\\u091a\\u0902\\u0917  \\u092c\\u0947\\u0926\\u0947\\u0928\\u093e\\\\",","activeCases"/g,
-      '"dateUpdate": "2020-01-24","mukimNe":"\\u092a\\u0928\\u094d\\u091a\\u0902\\u0917  \\u092c\\u0947\\u0926\\u0947\\u0928\\u093e\\\\","activeCases"'
+      '"dateUpdate": "2020-01-24","activeCases"'
     );
   // Temporary cleaning
 }
