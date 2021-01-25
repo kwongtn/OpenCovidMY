@@ -1,0 +1,132 @@
+[
+    {
+        "selangor": {
+            "en": "Selangor",
+            "my": "Selangor",
+            "zh": "\u96ea\u5170\u83aa",
+            "ne": "\u0938\u0947\u0932\u093e\u0919\u094d\u0917\u094b\u0930",
+            "mm": "\u1006\u101c\u1014\u103a\u1002\u1031\u102b",
+            "be": "\u09b8\u09c7\u09b2\u09be\u0982\u0997\u09b0"
+        },
+        "kualaLumpur": {
+            "en": "Kuala Lumpur",
+            "my": "Kuala Lumpur",
+            "zh": "\u5409\u9686\u5761",
+            "ne": "\u0915\u094d\u0935\u093e\u0932\u093e\u0932\u0941\u092e\u094d\u092a\u0941\u0930",
+            "mm": "\u1000\u103d\u102c\u101c\u102c\u101c\u1019\u103a\u1015\u1030",
+            "be": "\u0995\u09c1\u09df\u09be\u09b2\u09be\u09b2\u09be\u09ae\u09aa\u09c1\u09b0"
+        },
+        "johor": {
+            "en": "Johor",
+            "my": "Johor",
+            "zh": "\u67d4\u4f5b",
+            "ne": "\u091c\u094b\u0939\u094b\u0930",
+            "mm": "\u1002\u103b\u102d\u102f\u101f\u102d\u102f\u1038",
+            "be": "\u099c\u09cb\u09b9\u09b0"
+        },
+        "sarawak": {
+            "en": "Sarawak",
+            "my": "Sarawak",
+            "zh": "\u7802\u62c9\u8d8a",
+            "ne": "\u0938\u093e\u0930\u0935\u0915",
+            "mm": "\u1006\u102c\u101b\u102c\u101d\u1015\u103a",
+            "be": "\u09b8\u09be\u09b0\u09be\u0993\u09df\u09be\u0995"
+        },
+        "negeriSembilan": {
+            "en": "Negeri Sembilan",
+            "my": "Negeri Sembilan",
+            "zh": "\u68ee\u7f8e\u5170",
+            "ne": "\u0928\u0947\u0917\u0947\u0930\u0940  \u0938\u0947\u092e\u094d\u092c\u093f\u0932\u093e\u0928",
+            "mm": "\u1014\u102e\u1002\u101b\u102e \u1006\u1019\u102e\u101c\u1019\u103a\u1038 ",
+            "be": "\u09a8\u09c7\u0997\u09c7\u09b0\u09bf \u09b8\u09c7\u09ae\u09ac\u09bf\u09b2\u09be\u09a8"
+        },
+        "sabah": {
+            "en": "Sabah",
+            "my": "Sabah",
+            "zh": "\u6c99\u5df4",
+            "ne": "\u0938\u093e\u092c\u0939",
+            "mm": "\u1006\u102c\u1018\u102c\u1038",
+            "be": "\u09b8\u09be\u09ac\u09be\u09b9"
+        },
+        "pahang": {
+            "en": "Pahang",
+            "my": "Pahang",
+            "zh": "\u5f6d\u4ea8",
+            "ne": "\u092a\u093e\u0939\u093e\u0902\u0917",
+            "mm": "\u1014\u102e\u1002\u101b\u102e \u1006\u1019\u102e\u101c\u1019\u103a\u1038 ",
+            "be": "\u09aa\u09be\u09b9\u09be\u0982"
+        },
+        "perak": {
+            "en": "Perak",
+            "my": "Perak",
+            "zh": "\u9739\u96f3",
+            "ne": "\u092a\u0947\u0930\u093e\u0917",
+            "mm": "\u1015\u1032\u101b\u1010\u103a",
+            "be": "\u09aa\u09c7\u09b0\u09be\u0995"
+        },
+        "kelantan": {
+            "en": "Kelantan",
+            "my": "Kelantan",
+            "zh": "\u5409\u5170\u4e39",
+            "ne": "\u0915\u094d\u0932\u093e\u0928\u094d\u0924\u093e\u0928",
+            "mm": "\u1000\u101c\u1014\u103a\u1010\u1014\u103a\u1038",
+            "be": "\u0995\u09cd\u09b2\u09be\u09a8\u09a4\u09be\u09a8"
+        },
+        "melaka": {
+            "en": "Melaka",
+            "my": "Melaka",
+            "zh": "\u9a6c\u516d\u7532",
+            "ne": "\u092e\u0932\u0915\u093e",
+            "mm": "\u1019\u102c\u101c\u1000\u102c",
+            "be": "\u09ae\u09be\u09b2\u09be\u0995\u09be"
+        },
+        "pulauPinang": {
+            "en": "Pulau Pinang",
+            "my": "Pulau Pinang",
+            "zh": "\u69df\u57ce",
+            "ne": "\u092a\u093f\u0928\u093e\u0902\u0917",
+            "mm": "\u1015\u1030\u101c\u1031\u102c\u1004\u103a\u1038 \u1015\u102e\u1014\u1014\u103a\u1038",
+            "be": "\u09aa\u09bf\u09a8\u09be\u0982"
+        },
+        "terengganu": {
+            "en": "Terengganu",
+            "my": "Terengganu",
+            "zh": "\u767b\u5609\u697c",
+            "ne": "\u0924\u0947\u0930\u0947\u0902\u0917\u093e\u0928\u0941",
+            "mm": "\u1010\u101b\u102c\u1014\u103a\u1002\u102b\u1014\u1030",
+            "be": "\u09a4\u09c7\u09b0\u09c7\u0982\u0997\u09be\u09a8\u09c1"
+        },
+        "kedah": {
+            "en": "Kedah",
+            "my": "Kedah",
+            "zh": "\u5409\u6253",
+            "ne": "\u0915\u0947\u0921\u093e",
+            "mm": "\u1000\u1012\u1037\u102b",
+            "be": "\u0995\u09c7\u09a6\u09be\u09b9"
+        },
+        "putrajaya": {
+            "en": "Putrajaya",
+            "my": "Putrajaya",
+            "zh": "\u5e03\u57ce",
+            "ne": "\u092a\u0941\u0924\u094d\u0930\u091c\u092f\u093e",
+            "mm": "\u1015\u1030\u1011\u101b\u102c\u1002\u103b\u102c\u101a\u102c",
+            "be": "\u09aa\u09c1\u09a4\u09cd\u09b0\u09be\u099c\u09df\u09be"
+        },
+        "perlis": {
+            "en": "Perlis",
+            "my": "Perlis",
+            "zh": "\u73bb\u7483\u5e02",
+            "ne": "\u092a\u0947\u0930\u094d\u0932\u093f\u0938",
+            "mm": "\u1015\u102b\u101c\u1005\u103a",
+            "be": "\u09aa\u09c7\u09b0\u09b2\u09bf\u09b8"
+        },
+        "labuan": {
+            "en": "Labuan",
+            "my": "Labuan",
+            "zh": "\u7eb3\u95fd",
+            "ne": "\u0933\u092c\u0941\u0906\u0928",
+            "mm": "\u101c\u102c\u1018\u1030\u1021\u1014\u103a",
+            "be": "\u09b2\u09be\u09ac\u09c1\u09df\u09be\u09a8"
+        }
+    }
+]
