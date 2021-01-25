@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "devStart": "nodemon ./combiner.ts",
-    "start": "tsc && node ./dist/src/combiner.js",
+    "start": "tsc && node ./dist/combiner.js",
     "build": "tsc"
   },
   "author": "",
