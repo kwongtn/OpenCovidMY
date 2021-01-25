@@ -1,5 +1,5 @@
 [{
-    "date": "2020-12-31T16:00:00.889Z",
+    "date": "2020-12-31T16:00:00.685Z",
     "data": [{
         "state": "Johor",
         "district": "Batu Pahat",
@@ -1595,7 +1595,7 @@
         "changeActiveFourteen": 7
     }]
 }, {
-    "date": "2021-01-01T16:00:00.890Z",
+    "date": "2021-01-01T16:00:00.685Z",
     "data": [{
         "state": "Johor",
         "district": "Batu Pahat",
@@ -3191,7 +3191,7 @@
         "changeActiveFourteen": 0
     }]
 }, {
-    "date": "2021-01-02T16:00:00.890Z",
+    "date": "2021-01-02T16:00:00.685Z",
     "data": [{
         "state": "Johor",
         "district": "Batu Pahat",
@@ -4787,7 +4787,7 @@
         "changeActiveFourteen": -1
     }]
 }, {
-    "date": "2021-01-03T16:00:00.890Z",
+    "date": "2021-01-03T16:00:00.685Z",
     "data": [{
         "state": "Johor",
         "district": "Batu Pahat",
@@ -6383,7 +6383,7 @@
         "changeActiveFourteen": 11
     }]
 }, {
-    "date": "2021-01-04T16:00:00.891Z",
+    "date": "2021-01-04T16:00:00.685Z",
     "data": [{
         "state": "Johor",
         "district": "Batu Pahat",
@@ -7979,7 +7979,7 @@
         "changeActiveFourteen": 5
     }]
 }, {
-    "date": "2021-01-05T16:00:00.891Z",
+    "date": "2021-01-05T16:00:00.685Z",
     "data": [{
         "state": "Johor",
         "district": "Batu Pahat",
@@ -9575,7 +9575,7 @@
         "changeActiveFourteen": 1
     }]
 }, {
-    "date": "2021-01-06T16:00:00.891Z",
+    "date": "2021-01-06T16:00:00.685Z",
     "data": [{
         "state": "Johor",
         "district": "Batu Pahat",
@@ -11171,7 +11171,7 @@
         "changeActiveFourteen": 1
     }]
 }, {
-    "date": "2021-01-07T16:00:00.891Z",
+    "date": "2021-01-07T16:00:00.685Z",
     "data": [{
         "state": "Johor",
         "district": "Batu Pahat",
@@ -12767,7 +12767,7 @@
         "changeActiveFourteen": 18
     }]
 }, {
-    "date": "2021-01-08T16:00:00.891Z",
+    "date": "2021-01-08T16:00:00.685Z",
     "data": [{
         "state": "Johor",
         "district": "Batu Pahat",
@@ -14363,7 +14363,7 @@
         "changeActiveFourteen": 47
     }]
 }, {
-    "date": "2021-01-09T16:00:00.891Z",
+    "date": "2021-01-09T16:00:00.685Z",
     "data": [{
         "state": "Johor",
         "district": "Batu Pahat",
@@ -15959,7 +15959,7 @@
         "changeActiveFourteen": 15
     }]
 }, {
-    "date": "2021-01-10T16:00:00.891Z",
+    "date": "2021-01-10T16:00:00.685Z",
     "data": [{
         "state": "Johor",
         "district": "Batu Pahat",
@@ -17555,7 +17555,7 @@
         "changeActiveFourteen": 15
     }]
 }, {
-    "date": "2021-01-11T16:00:00.891Z",
+    "date": "2021-01-11T16:00:00.685Z",
     "data": [{
         "state": "Johor",
         "district": "Batu Pahat",
@@ -19115,7 +19115,7 @@
         "changeActiveFourteen": "125"
     }]
 }, {
-    "date": "2021-01-12T16:00:00.891Z",
+    "date": "2021-01-12T16:00:00.685Z",
     "data": [{
         "state": "Johor",
         "district": "Batu Pahat",
@@ -20675,7 +20675,7 @@
         "changeActiveFourteen": "125"
     }]
 }, {
-    "date": "2021-01-13T16:00:00.891Z",
+    "date": "2021-01-13T16:00:00.685Z",
     "data": [{
         "state": "Johor",
         "district": "Batu Pahat",
@@ -22235,7 +22235,7 @@
         "changeActiveFourteen": "125"
     }]
 }, {
-    "date": "2021-01-14T16:00:00.891Z",
+    "date": "2021-01-14T16:00:00.685Z",
     "data": [{
         "state": "Johor",
         "district": "Batu Pahat",
@@ -23795,7 +23795,7 @@
         "changeActiveFourteen": "125"
     }]
 }, {
-    "date": "2021-01-15T16:00:00.891Z",
+    "date": "2021-01-15T16:00:00.685Z",
     "data": [{
         "state": "Johor",
         "district": "Batu Pahat",
@@ -25355,7 +25355,7 @@
         "changeActiveFourteen": 0
     }]
 }, {
-    "date": "2021-01-16T16:00:00.891Z",
+    "date": "2021-01-16T16:00:00.685Z",
     "data": [{
         "state": "Johor",
         "district": "Batu Pahat",
@@ -26915,7 +26915,7 @@
         "changeActiveFourteen": 0
     }]
 }, {
-    "date": "2021-01-17T16:00:00.891Z",
+    "date": "2021-01-17T16:00:00.685Z",
     "data": [{
         "state": "Johor",
         "district": "Batu Pahat",
@@ -28475,7 +28475,7 @@
         "changeActiveFourteen": 0
     }]
 }, {
-    "date": "2021-01-18T16:00:00.891Z",
+    "date": "2021-01-18T16:00:00.685Z",
     "data": [{
         "state": "Johor",
         "district": "Batu Pahat",
@@ -30035,7 +30035,7 @@
         "changeActiveFourteen": 0
     }]
 }, {
-    "date": "2021-01-19T16:00:00.891Z",
+    "date": "2021-01-19T16:00:00.685Z",
     "data": [{
         "state": "Johor",
         "district": "Batu Pahat",
@@ -31595,7 +31595,7 @@
         "changeActiveFourteen": 0
     }]
 }, {
-    "date": "2021-01-20T16:00:00.891Z",
+    "date": "2021-01-20T16:00:00.685Z",
     "data": [{
         "state": "Johor",
         "district": "Batu Pahat",
@@ -33155,7 +33155,7 @@
         "changeActiveFourteen": 0
     }]
 }, {
-    "date": "2021-01-21T16:00:00.891Z",
+    "date": "2021-01-21T16:00:00.685Z",
     "data": [{
         "state": "Johor",
         "district": "Batu Pahat",
@@ -34688,7 +34688,7 @@
         "changeActiveFourteen": 138
     }]
 }, {
-    "date": "2021-01-22T16:00:00.891Z",
+    "date": "2021-01-22T16:00:00.685Z",
     "data": [{
         "state": "Johor",
         "district": "Batu Pahat",
@@ -36221,7 +36221,7 @@
         "changeActiveFourteen": 138
     }]
 }, {
-    "date": "2021-01-23T16:00:00.891Z",
+    "date": "2021-01-23T16:00:00.685Z",
     "data": [{
         "state": "Johor",
         "district": "Batu Pahat",
