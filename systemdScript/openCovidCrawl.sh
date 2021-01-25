@@ -18,7 +18,7 @@ cd /home/ubuntu/OpenCovidMY/
 #sudo chown -Rc $UID .
 
 git add -A
-sudo -u ubuntu git commit -a -m "[Auto] $dt"
+git commit -a -m "[Auto] $dt"
 
 #git remote add origin git@github.com:kwongtn/OpenCovidMY.git
 
