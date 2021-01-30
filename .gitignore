@@ -93,3 +93,4 @@ dist/
 
 .VSCodeCounter
 private
+stateDebug.json
