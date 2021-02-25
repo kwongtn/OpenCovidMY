@@ -1,0 +1,20 @@
+{
+    "version": "1.0",
+    "encoding": "UTF-8",
+    "feed": {
+        "entry": [{
+            "gsx$positif": {
+                "$t": "291774"
+            },
+            "gsx$negatif": {
+                "$t": "5733440"
+            },
+            "gsx$pending": {
+                "$t": ""
+            },
+            "gsx$timestamp": {
+                "$t": "2021-02-24T12:00:00+08:00"
+            }
+        }]
+    }
+}
