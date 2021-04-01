@@ -1,0 +1,67 @@
+[{
+    "depot": "Foreigners",
+    "sampled": 984514,
+    "positive": 126592,
+    "foreigners": "LEAVE BLANK",
+    "treatment": 4674,
+    "death": 149,
+    "zhDepot": null,
+    "localTransmission": null,
+    "yestLocalTranmission": null,
+    "newLocalTransmission": null
+}, {
+    "depot": "Semenyih 2",
+    "sampled": 356,
+    "positive": 3,
+    "foreigners": 1,
+    "treatment": "LEAVE BLANK",
+    "death": 0,
+    "zhDepot": "\u58eb\u6bdb\u67082",
+    "localTransmission": null,
+    "yestLocalTranmission": null,
+    "newLocalTransmission": null
+}, {
+    "depot": "Bukit Jalil",
+    "sampled": 1662,
+    "positive": 653,
+    "foreigners": 650,
+    "treatment": "LEAVE BLANK",
+    "death": 1,
+    "zhDepot": "\u6b66\u5409\u52a0\u91cc\u5c14",
+    "localTransmission": null,
+    "yestLocalTranmission": null,
+    "newLocalTransmission": null
+}, {
+    "depot": "Sepang",
+    "sampled": 1477,
+    "positive": 72,
+    "foreigners": 72,
+    "treatment": "LEAVE BLANK",
+    "death": 0,
+    "zhDepot": "\u96ea\u90a6",
+    "localTransmission": null,
+    "yestLocalTranmission": null,
+    "newLocalTransmission": null
+}, {
+    "depot": "Semenyih",
+    "sampled": 1785,
+    "positive": 66,
+    "foreigners": 65,
+    "treatment": "LEAVE BLANK",
+    "death": 0,
+    "zhDepot": "\u58eb\u6bdb\u6708",
+    "localTransmission": null,
+    "yestLocalTranmission": null,
+    "newLocalTransmission": null
+}, {
+    "depot": "Putrajaya",
+    "sampled": 137,
+    "positive": 2,
+    "foreigners": 2,
+    "treatment": "LEAVE BLANK",
+    "death": 0,
+    "zhDepot": "\u5e03\u57ce",
+    "localTransmission": null,
+    "yestLocalTranmission": null,
+    "newLocalTransmission": null
+}]
