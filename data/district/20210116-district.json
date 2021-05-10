@@ -1,4 +1,5 @@
-[{
+{
+    "area": [{
     "state": "Johor",
     "district": "Batu Pahat",
     "cases": 1032,
@@ -1556,3 +1557,5 @@
     "activeFourteen": 232,
     "changeActiveFourteen": 0
 }]
+
+}
